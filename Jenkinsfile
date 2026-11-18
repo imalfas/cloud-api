@@ -74,7 +74,7 @@ pipeline {
     
     post {
         success {
-            echo 'Pipeline executed successfully! fast-api-chatbot image built, pushed, and manifest repo updated.'
+            echo 'Pipeline executed successfully! cloud-api image built, pushed, and manifest repo updated.'
         }
         failure {
             echo 'Pipeline failed. Please review the stage logs above.'
