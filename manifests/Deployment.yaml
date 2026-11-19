@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cloud-api
-          image: imalfas/cloud-api:latest
+          image: imalfas/cloud-api:4
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
